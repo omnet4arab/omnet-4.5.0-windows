@@ -1,0 +1,9 @@
+This Python istallation have be rearranged to better support deploying in 
+an MSYS installation.
+
+- documatnation and other text files -> doc/python2.7
+- executables and the content of DLLs dir -> /bin
+- include files -> /include/python2.7
+- files from Libs directory -> /lib
+- libpython27.a renamed to libpython2.7.a
+- the content of Lib directory was zipped as python27.zip and moved to /bin
